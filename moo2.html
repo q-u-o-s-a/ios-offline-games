@@ -27,17 +27,17 @@
             touch-action: none;
         }
     </style>
-    <script src="/dist/js-dos.js"></script>
-    <link href="/dist/js-dos.css" rel="stylesheet">
+    <script src="dist/js-dos.js"></script>
+    <link href="dist/js-dos.css" rel="stylesheet">
 </head>
 
 <body>
     <div id="jsdos"></div>
     <script>
-        let bundleUrl = "/games/moo2.jsdos";
+        let bundleUrl = "games/moo2.jsdos";
         
         let clientId = null;
-        emulators.pathPrefix = "/dist/";
+        emulators.pathPrefix = "dist/";
         Dos(document.getElementById("jsdos"), {
             hardware: window.hardware,
             withNetworkingApi: false,
